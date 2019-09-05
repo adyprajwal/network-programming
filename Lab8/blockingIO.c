@@ -19,6 +19,9 @@ int main(){
 	
 
 	int server_fd = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);
+
+    //F_SETFL - Set file status flags.
+    //O_NONBLOCK - Non-blocking mode.
 	fcntl(server_fd,F_SETFL, O_NONBLOCK);
 
 	//socklen_t len;
