@@ -1,3 +1,4 @@
+//wap to implement blocking I/O in TCP socket
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/socket.h>
